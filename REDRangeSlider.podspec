@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "REDRangeSlider"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "Range Slider for iOS."
   s.homepage     = "https://github.com/oliland/REDRangeSlider"
 
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.framework    = 'UIKit'
   s.requires_arc = true
 
-  s.source       = { :git => "https://github.com/oliland/REDRangeSlider.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/oliland/REDRangeSlider.git", :tag => "0.0.5" }
   s.source_files = 'REDRangeSlider/REDRangeSlider/*.{h,m}'
 end
